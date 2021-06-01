@@ -4,9 +4,9 @@ body {
   background: linear-gradient(
     180deg,
     #112c53 15%,
-    #182349 25%,
-    #4a1153 45%,
-    #112c53 75%
+    #182349 20%,
+    #4a1153 29%,
+    #112c53 80%
   );
   background-position-y: 900px;
 }
@@ -47,7 +47,6 @@ body {
   margin-left: 100px;
   line-height: 99.52%;
   text-transform: capitalize;
-  backdrop-filter: blur(4px);
 }
 
 #principal .paragrafo p {
@@ -67,13 +66,19 @@ body {
   background: #0ad306;
   letter-spacing: 2px;
   margin-left: 100px;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
   width: 323px;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
 }
 
-#principal .botao button img {
-  width: 20px;
+#principal .botao img {
+  width: 25px;
+  margin-top: -5px;
+  margin-right: 40px;
 }
 
 #principal .t2 h5 {
@@ -81,20 +86,21 @@ body {
   color: #fff;
   font-weight: 200;
   letter-spacing: 2px;
-  margin-left: 19%;
 }
 
-#principal .p2 p {
+#principal .paragrafo2 .p2 p {
   font-weight: 600;
+  color: #fff;
   font-size: 35px;
   line-height: 40px;
   max-width: 400px;
 }
 
-#principal .p3 p {
+#principal .paragrafo2 .p3 p {
   font-weight: 200;
   font-size: 20px;
   max-width: 500px;
+  color: #fff;
 }
 
 #produtos {
@@ -273,6 +279,7 @@ body {
   padding: 40px;
   border-radius: 44px;
   width: 400px;
+  height: 350px;
   margin-left: 100px;
 }
 
@@ -418,4 +425,334 @@ footer .icons {
 
 footer .icons a {
   margin-left: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      #112c53 15%,
+      #182349 20%,
+      #4a1153 29%,
+      #112c53 80%
+    );
+  }
+
+  #principal {
+    background: url("../img/BgHeroMobile.png") no-repeat;
+    background-size: 100%;
+  }
+
+  #principal nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #principal nav .navbar-brand img {
+    width: 200px;
+    margin-left: 00px;
+  }
+
+  #principal nav span {
+    width: 25px;
+  }
+
+  #principal nav .navbar-troggler-icon span {
+    width: 0;
+  }
+
+  #principal nav .navbar-nav {
+    background: #7444f6;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #principal nav ul a {
+    color: #fff;
+    margin-left: 0px;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  #principal .titulo h1 {
+    margin-left: 0;
+    margin-top: -53px;
+    max-width: 280px;
+    font-size: 35px;
+  }
+
+  #principal .paragrafo p {
+    margin-left: 0;
+    font-size: 20px;
+    margin-top: 30px;
+    max-width: 250px;
+  }
+
+  #principal .botao button {
+    margin-left: 0;
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+  }
+
+  #principal .botao img {
+    margin-right: 10px;
+  }
+
+  #principal .t2 h5 {
+    margin-top: 330px;
+    margin-left: -0%;
+  }
+
+  #principal .t3 h5 {
+    margin-top: 80px;
+  }
+
+  #principal .paragrafo2 p {
+    color: #fff;
+    max-width: 400px;
+  }
+
+  #cta .paragrafo p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #cta .botao button {
+    margin-left: 40px;
+  }
+
+  #produtos .browser img {
+    margin-left: -0px;
+    margin-top: -200px;
+  }
+
+  #produtos .icon img {
+    margin-left: 0px;
+    width: 30px;
+  }
+
+  #produtos .paragrafo p {
+    margin-left: 10px;
+  }
+
+  #funcionamento {
+    background: url("../img/linhaMobile.png") no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  #funcionamento .card1 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+  }
+
+  #funcionamento .card2 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #funcionamento .card3 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #funcionamento .card4 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    margin-top: -40px;
+  }
+
+  #funcionamento .card5 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+  }
+
+  #funcionamento .card6 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+  }
+
+  #funcionamento .card7 img {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    margin-top: -70px;
+  }
+
+  #funcionamento .texto p {
+    margin-left: 12%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  #funcionamento .botao button {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  #aprova .card1 {
+    border: none;
+    height: 550px;
+    width: 320px;
+  }
+
+  #aprova img {
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  #aprova .card1 p {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #aprova .autor p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #decolar .titulo h1 {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  #decolar .card1 {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+  }
+
+  #decolar .card2 {
+    margin-left: 10px;
+    margin-bottom: -100px;
+    width: 300px;
+  }
+
+  #duvidas {
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 100px;
+  }
+
+  #duvidas .p1 p {
+    margin-top: -10px;
+  }
+
+  #duvidas .item-arrow {
+    display: none;
+  }
+
+  #duvidas .p4 p {
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  footer .copyright p {
+    margin-left: 20%;
+    display: none;
+  }
+
+  footer .logo img {
+    margin-left: 25%;
+    width: 150px;
+  }
+
+  footer .icons {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #principal .botao button {
+    font-size: 14px;
+  }
+
+  #principal .botao img {
+    width: 20px;
+  }
+
+  #cta .botao {
+    margin-left: -25px;
+  }
+
+  #funcionamento .texto {
+    margin-left: -30px;
+  }
+
+  #decolar .card1 {
+    margin-left: -5px;
+  }
+
+  #decolar .card2 {
+    margin-left: -5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #principal nav .navbar-brand img {
+    width: 150px;
+  }
+
+  #principal .titulo h1 {
+    font-size: 30px;
+    max-width: 200px;
+    margin-top: -55px;
+  }
+
+  #principal .paragrafo p {
+    max-width: 210px;
+    margin-top: 20px;
+  }
+
+  #principal .botao button {
+    width: 280px;
+  }
+
+  #principal .t2 {
+    margin-top: -30px;
+  }
+
+  #cta .botao button {
+    margin-left: 30px;
+    width: 300px;
+  }
+
+  #decolar .card1 {
+    margin-left: -30px;
+  }
+
+  #decolar .card2 {
+    margin-left: -30px;
+  }
+
+  #aprova .imagem img {
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  #aprova .paragrafo p {
+    margin-left: 0;
+  }
+
+  #aprova .card1 {
+    border: none;
+    width: 300px;
+  }
 }
